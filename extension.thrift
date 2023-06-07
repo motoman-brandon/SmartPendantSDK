@@ -510,15 +510,22 @@ service Pendant
     void registerTranslationData(1:PendantID p, 2:string locale, 3:binary translationData, 4:string translationName)
                           throws (1:IllegalArgument e);
 
-
+    /** Register a Menu that utilities can be registered under **/
+    void registerUtilityMenu(1:PendantID p, 2:string menuName, 3:string menuText, 4:string menuIcon)
+                        throws (1:IllegalArgument e);
+    /** Unregisters a user added menu - All Utilities within the menu must be unregistered with 'unregisterUtilityWindow' first*/ 
+    void unregisterUtilityMenu(1:PendantID p, 2:string menuName)
+                        throws (1:IllegalArgument e);
     /** Register a Utility window with the UI.  
         The itemType references a previously registered YML item instantiated for the window
         UI content.
         A main menu entry will automatically be added to the pendant UI, for opening the utility window.
+        If an invalid or empty menuName is specififed, the entry will be added under "Utility", 
+        otherwise it will be added under the specified menu.
     */
     void registerUtilityWindow(1:PendantID p, 2:string identifier, 
                                3:string itemType,
-                               4:string menuItemName, 5:string windowTitle)
+                               4:string menuItemName, 5:string windowTitle, 6:string menuName)
                           throws (1:IllegalArgument e);
 
     void unregisterUtilityWindow(1:PendantID p, 2:string identifier)
