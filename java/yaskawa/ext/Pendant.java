@@ -3,9 +3,13 @@ package yaskawa.ext;
 
 import java.util.*;
 import java.util.function.*;
+
+import javax.xml.crypto.Data;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.security.cert.Extension;
 import java.nio.file.Path;
 import java.nio.ByteBuffer;
 
@@ -683,6 +687,11 @@ public class Pendant
     {
         synchronized(extension) {
             client.displayHelp(id, title, htmlContentFile);
+        }
+    }
+    public void refreshDynamicInstructions(DynamicInstructionType instructionType) throws TException{
+        synchronized(extension) {
+            client.refreshDynamicInstructions(id, instructionType);
         }
     }
     

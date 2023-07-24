@@ -436,6 +436,12 @@ enum Disposition {
     Positive = 2
 }
 
+enum DynamicInstructionType {
+    All = 0,
+    ControlGroup = 1,
+    Welding = 2,
+}
+
 
 /** The Pendant API provides functions for interacting with and 
     integrating the main Smart Pendant user-interface.
@@ -686,6 +692,9 @@ service Pendant
 
     /** Displays an html file in a standard Smart Pendant help dialog. (Only available from SDK API 3.0 onward) */
     void displayHelp(1:PendantID p, 2:string title, 3:string htmlContentFile);
+
+    /** Refreshes the instructions that change based on external factors */
+    oneway void refreshDynamicInstructions(1:PendantID p, 2:DynamicInstructionType instructionType);
 }
 
 

@@ -561,6 +561,12 @@ namespace Yaskawa.Ext
         {
             client.displayScreen(id, identifier);
         }
+
+        public void refreshDynamicInstructions(DynamicInstructionType instructionType)
+        {
+            client.refreshDynamicInstructions(id, instructionType);
+        }
+
         protected Extension extension;
         protected API.Pendant.Client client;
         protected long id;
