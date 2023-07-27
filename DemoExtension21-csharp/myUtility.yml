@@ -1,0 +1,36 @@
+CalcButton : Button
+{
+    width: 64
+    height: 64
+    fontSize: 20
+}
+
+
+MyUtility : Utility {
+
+    id: calc
+
+    expandCollapseResize: false
+    expandedSize: [Const.HalfWidth - 48,Const.HalfHeight - 64]
+
+    Item {
+        width: Const.HalfWidth - 48 - 48
+        height: 48
+        Rectangle {
+            color: "white"
+            width: parent.width
+            height: parent.height
+        }
+        Text {
+            id: display
+            width: parent.width
+            halign: Const.Right
+            text: '0'
+            fontSize: 30
+            x: -8
+            y: 8
+        }
+
+    }
+
+}

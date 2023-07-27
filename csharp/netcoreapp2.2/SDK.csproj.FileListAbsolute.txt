@@ -1,0 +1,12 @@
+/code/globalpendant/Extension/SDK/csharp/bin/Debug/netcoreapp2.2/YaskawaExtension.deps.json
+/code/globalpendant/Extension/SDK/csharp/bin/Debug/netcoreapp2.2/YaskawaExtension.dll
+/code/globalpendant/Extension/SDK/csharp/bin/Debug/netcoreapp2.2/YaskawaExtension.pdb
+/code/globalpendant/Extension/SDK/csharp/bin/Debug/netcoreapp2.2/Thrift.dll
+/code/globalpendant/Extension/SDK/csharp/netcoreapp2.2/SDK.csproj.AssemblyReference.cache
+/code/globalpendant/Extension/SDK/csharp/netcoreapp2.2/SDK.GeneratedMSBuildEditorConfig.editorconfig
+/code/globalpendant/Extension/SDK/csharp/netcoreapp2.2/SDK.AssemblyInfoInputs.cache
+/code/globalpendant/Extension/SDK/csharp/netcoreapp2.2/SDK.AssemblyInfo.cs
+/code/globalpendant/Extension/SDK/csharp/netcoreapp2.2/SDK.csproj.CoreCompileInputs.cache
+/code/globalpendant/Extension/SDK/csharp/netcoreapp2.2/SDK.csproj.CopyComplete
+/code/globalpendant/Extension/SDK/csharp/netcoreapp2.2/YaskawaExtension.dll
+/code/globalpendant/Extension/SDK/csharp/netcoreapp2.2/YaskawaExtension.pdb

@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "YaskawaExtension/1.0.0": {
+        "dependencies": {
+          "Thrift": "0.12.0.1"
+        },
+        "runtime": {
+          "YaskawaExtension.dll": {}
+        }
+      },
+      "Thrift/0.12.0.1": {
+        "runtime": {
+          "Thrift.dll": {
+            "assemblyVersion": "0.12.0.1",
+            "fileVersion": "0.12.0.1"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "YaskawaExtension/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Thrift/0.12.0.1": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

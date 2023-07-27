@@ -427,6 +427,7 @@ enum IntegrationPoint {
     SmartFrameJogPanelBottomAny = 49,
     JogPanelTopCenter = 50,
     HomeScreen = 60,
+    TestRunPanel = 70,
 }
 
 

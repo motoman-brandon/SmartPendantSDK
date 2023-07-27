@@ -1,0 +1,16 @@
+/code/globalpendant/Extension/SDK/DemoExtension21-csharp/netcoreapp2.2/DemoExtension21-csharp.csproj.AssemblyReference.cache
+/code/globalpendant/Extension/SDK/DemoExtension21-csharp/netcoreapp2.2/DemoExtension21-csharp.GeneratedMSBuildEditorConfig.editorconfig
+/code/globalpendant/Extension/SDK/DemoExtension21-csharp/netcoreapp2.2/DemoExtension21-csharp.AssemblyInfoInputs.cache
+/code/globalpendant/Extension/SDK/DemoExtension21-csharp/netcoreapp2.2/DemoExtension21-csharp.AssemblyInfo.cs
+/code/globalpendant/Extension/SDK/DemoExtension21-csharp/netcoreapp2.2/DemoExtension21-csharp.csproj.CoreCompileInputs.cache
+/code/globalpendant/Extension/SDK/DemoExtension21-csharp/bin/Debug/netcoreapp2.2/DemoExtension21_csharp.deps.json
+/code/globalpendant/Extension/SDK/DemoExtension21-csharp/bin/Debug/netcoreapp2.2/DemoExtension21_csharp.runtimeconfig.json
+/code/globalpendant/Extension/SDK/DemoExtension21-csharp/bin/Debug/netcoreapp2.2/DemoExtension21_csharp.runtimeconfig.dev.json
+/code/globalpendant/Extension/SDK/DemoExtension21-csharp/bin/Debug/netcoreapp2.2/DemoExtension21_csharp.dll
+/code/globalpendant/Extension/SDK/DemoExtension21-csharp/bin/Debug/netcoreapp2.2/DemoExtension21_csharp.pdb
+/code/globalpendant/Extension/SDK/DemoExtension21-csharp/bin/Debug/netcoreapp2.2/YaskawaExtension.dll
+/code/globalpendant/Extension/SDK/DemoExtension21-csharp/bin/Debug/netcoreapp2.2/YaskawaExtension.pdb
+/code/globalpendant/Extension/SDK/DemoExtension21-csharp/netcoreapp2.2/DemoExtension21-csharp.csproj.CopyComplete
+/code/globalpendant/Extension/SDK/DemoExtension21-csharp/netcoreapp2.2/DemoExtension21_csharp.dll
+/code/globalpendant/Extension/SDK/DemoExtension21-csharp/netcoreapp2.2/DemoExtension21_csharp.pdb
+/code/globalpendant/Extension/SDK/DemoExtension21-csharp/netcoreapp2.2/DemoExtension21-csharp.genruntimeconfig.cache

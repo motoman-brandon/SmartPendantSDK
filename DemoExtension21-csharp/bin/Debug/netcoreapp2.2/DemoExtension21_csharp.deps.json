@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "DemoExtension21_csharp/1.0.0": {
+        "dependencies": {
+          "YaskawaExtension": "1.0.0.0"
+        },
+        "runtime": {
+          "DemoExtension21_csharp.dll": {}
+        }
+      },
+      "YaskawaExtension/1.0.0.0": {
+        "runtime": {
+          "YaskawaExtension.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DemoExtension21_csharp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "YaskawaExtension/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

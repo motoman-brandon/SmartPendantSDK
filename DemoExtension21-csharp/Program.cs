@@ -13,9 +13,10 @@ namespace DemoExtension21_csharp
             var _version = new Yaskawa.Ext.Version(1,0,0);
             var _languages = new HashSet<string> { "en", "ja" } ;
 
-            extension = new Yaskawa.Ext.Extension("mylaunchkey",
-                "yeu.test-extension", 
-                _version, "YEU", _languages);
+            extension = new Yaskawa.Ext.Extension(
+                "yai.custommenutest", 
+                _version, "YEU", _languages,
+                "localhost", -1);
             Console.WriteLine("API version: "+extension.apiVersion());
 
             pendant = extension.pendant();
@@ -33,32 +34,14 @@ namespace DemoExtension21_csharp
         protected double time;
         public void setup()
         {
-            
+            pendant.registerYMLFile("myUtility.yml");
+            pendant.registerIntegration("util111", IntegrationPoint.TestRunPanel, "MyUtility", "NameyName", "windowName");
         }
         public void Run()
         {
             
         }
-
-        public void updateChart()
-        {
-            if (update.Equals(true))
-            {
-                update = !update;
-                try
-                {
-                    DataPoint pt = new DataPoint();
-                    pt.X = time;
-                    pt.Y = Math.Sin(time);
-                    Pendant.ISync.appendChartPoints("exampleline", "series 3", pt, true);
-                    pendant.incrementChartKey("exampleBar", "Darker", 1.0);
-                }
-                catch (Exception _e)
-                {
-                    Console.WriteLine("appencChartPoint: " + _e);
-                }
-            }
-        }
+        
         static void Main(string[] args)
         {
             demoExtension21_csharp _demoExtension = null;
@@ -80,7 +63,6 @@ namespace DemoExtension21_csharp
 
                 // run 'forever' (or until API service shutsdown)
                 try {
-                    _demoExtension.updateChart();
                 } catch (Exception _e) {
                     Console.WriteLine("Exception occured:"+ _e);
                 }
@@ -90,8 +72,6 @@ namespace DemoExtension21_csharp
                 Console.WriteLine("Exception: "+ _e);
 
             } finally {
-                if (_demoExtension != null)
-                    _demoExtension.close();
             }
         }
     }
